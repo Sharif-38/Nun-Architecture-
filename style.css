@@ -7,3 +7,83 @@
     font-weight:400;
     font-style: normal;
   }
+  /* Shared styles */
+  .display-flex{
+    display: flex;
+  }
+
+    /* dark-2 */
+  .text-gray{
+    color:#424242;
+  }
+  
+  /* dark-3 */
+  .text-light-gray{
+      color:#727272;
+  }
+  /* Background color */
+  .bg-light{
+     background-color: rgb(255,144,14,0.1);
+  }
+  /* header styles */
+
+/* Navgition part  */
+.navbar{
+    align-items: center;
+    justify-content:space-between;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+
+   
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+/* banner section */
+.navbar, .banner{
+    max-width:1440px;
+    margin: 0 auto;
+}
+
+.banner-content{
+    max-width:850px;
+    margin: 0 auto;
+   text-align: center;
+   margin-bottom:50px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size:4rem;
+}
+
+.banner-button{
+    background-color:rgb(255,144,14,100);
+    padding:20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+.banner-img{
+    width:100%;
+}
+
+/* Resposive meia query */
+@media screen and (max-width:576px){
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+}
